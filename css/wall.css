@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.wall-flow {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wall-flow li {
+    position: relative;
+    height: 154px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 5px 5px 0;
+    float: left;
+}
+
+.wall-flow li img {
+    height: 100%;
+}
+
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.cover img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -16px 0 0 -16px;
+}

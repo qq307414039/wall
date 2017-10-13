@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/wall.css">
+</head>
+<body>
+
+<ul class="wall-flow">
+    <li><a href="javascript:;"><img src="img/0.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/1.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/2.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/3.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/4.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/5.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/6.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/7.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/8.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/9.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/10.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/11.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/12.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/13.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/14.jpg"></a></li>
+    <li><a href="javascript:;"><img src="img/15.jpg"></a></li>
+</ul>
+<div class="cover"><img src="img/preloader.gif"></div>
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/wall.js"></script>
+<script type="text/javascript">
+    setTimeout(function () {
+        wall.flow({
+            parentElement: '.wall-flow',
+            rowNumber: 3
+        });
+        $('.cover').fadeOut();
+    }, 500)
+</script>
+</body>
+</html>
